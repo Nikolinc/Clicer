@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
+import CookieShower from "../cookieShower/cookieShower";
 import MilkWawes from "../milk_waves/waves";
 import "./StyleClicer.scss";
 
@@ -8,7 +9,10 @@ export default function CookiesClicer() {
   const bakeryName = "Cookie Zigul";
   return (
     <div className="oblastClicer" id="objact">
-      <div id="bakeryName" className="title">Пекарня {bakeryName}</div>
+      <CookieShower />
+      <div id="bakeryName" className="title">
+        Пекарня {bakeryName}
+      </div>
       <div id="cookies" className="title">
         печенья: {count}
       </div>

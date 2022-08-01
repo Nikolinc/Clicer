@@ -5,9 +5,9 @@
   flex-flow: column;
   justify-content: space-between;
   align-items: center;  
-  padding-top: 60px;
   width: 500px;
   height:900px; 
+  margin: 0;
 }
 .oblastClicer { 
    -webkit-touch-callout: none; /* iOS Safari */
@@ -24,6 +24,7 @@ button {
   display: flex;
   border: none;
   background: none; 
+  z-index: 1;
   
 }
 button {img{  
@@ -40,6 +41,7 @@ button img:active {
 }
 
 #cookies {
+  z-index: 2;
   top: 10%;
   width:100%;
   margin-bottom: 100px;
@@ -53,7 +55,8 @@ button img:active {
 }
 
 #bakeryName {
-   
+    margin: 60px;
+    z-index: 3;
     left: 0px;
     bottom: 8px;
     left: 12.5%;
