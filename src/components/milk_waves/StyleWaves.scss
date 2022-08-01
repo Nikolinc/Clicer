@@ -1,6 +1,8 @@
 .wave{
   width: 100%;
   height: 40ch;
+  z-index: 4;
+  bottom: 0;
   background-image: url(https://orteil.dashnet.org/cookieclicker/img/milkChocolate.png); 
   background-size: 500px; 
   animation:animationWave 30s ease infinite;

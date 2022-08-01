@@ -18,7 +18,7 @@ export default function CookiesClicer() {
       </div>
       <button onClick={() => setCount(count + 1)}>
         <img
-          src="https://pngimg.com/uploads/cookie/small/cookie_PNG13701.png"
+          src="https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png"
           alt=""
           draggable="false"
         />
