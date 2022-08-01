@@ -3,9 +3,8 @@
 .oblastClicer {
   display: flex;
   flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  
+  justify-content: space-between;
+  align-items: center;  
   padding-top: 60px;
   width: 500px;
   height:900px; 
@@ -51,6 +50,22 @@ button img:active {
   pointer-events: none;
   text-shadow: 1px 0px 0px #000, -1px 0px 0px #000, 0px 1px 0px #000,
     0px -1px 0px #000, 0px 1px 4px #000;
+}
+
+#bakeryName {
+   
+    left: 0px;
+    bottom: 8px;
+    left: 12.5%;
+    width: 75%;
+    text-align: center;
+    font-size: 20px;
+    background: #000;
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 4px 0px;
+    cursor: pointer;
+    color: rgba(255,255,255,0.8);
 }
 
 .title {

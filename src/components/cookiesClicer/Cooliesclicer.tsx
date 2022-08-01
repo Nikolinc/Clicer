@@ -5,9 +5,10 @@ import "./StyleClicer.scss";
 
 export default function CookiesClicer() {
   const [count, setCount] = useState(0);
-
+  const bakeryName = "Cookie Zigul";
   return (
     <div className="oblastClicer" id="objact">
+      <div id="bakeryName" className="title">Пекарня {bakeryName}</div>
       <div id="cookies" className="title">
         печенья: {count}
       </div>
