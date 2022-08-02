@@ -1,5 +1,5 @@
 
- #objact{
+ #VerticalBorder{
   border: 16px solid #40c4c8;   
   -moz-border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelVertical.png?v=2) 30 round round;
   -webkit-border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelVertical.png?v=2) 30 round round; 
@@ -7,4 +7,14 @@
   border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelVertical.png?v=2) 30 round round;
   border-top: none;
   border-bottom: none;
+}
+
+#HorizontalBorder{
+  border: 16px solid #40c4c8;   
+  -moz-border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelHorizontal.png?v=2) 30 round round;
+  -webkit-border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelHorizontal.png?v=2) 30 round round; 
+  -o-border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelHorizontal.png?v=2) 30 round round;
+  border-image: url(https://orteil.dashnet.org/cookieclicker/img/panelHorizontal.png?v=2) 30 round round;
+  border-right: none;
+  border-left: none;
 }

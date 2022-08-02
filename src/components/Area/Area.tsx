@@ -5,14 +5,14 @@ import "./styleArea.scss";
 
 export default function Area() {
   return (
-    <div className="Area" id="objact">
-      <div className="header">
-        <div className="leftMenu">
+    <div className="Area" id="VerticalBorder">
+      <div className="header" id="HorizontalBorder">
+        <div className="Menu" id="leftMenu">
           <button className="setting">setting</button>
           <button className="statistic">statistic</button>
         </div>
         <div className="news">{news[getRandomInt(4)]}</div>
-        <div className="rightMenu">
+        <div className="Menu" id="rightMenu">
           <button className="information">information</button>
           <button className="experience">experience</button>
         </div>

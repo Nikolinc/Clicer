@@ -9,7 +9,11 @@ export default function CookiesClicer() {
   const bakeryName = "Cookie Zigul";
   const height = (window.screen.height - 80) / window.devicePixelRatio - 20;
   return (
-    <div className="oblastClicer" id="objact" style={{ height: height }}>
+    <div
+      className="oblastClicer"
+      id="VerticalBorder"
+      style={{ height: height }}
+    >
       <CookieShower />
       <div id="bakeryName" className="title">
         Пекарня {bakeryName}
