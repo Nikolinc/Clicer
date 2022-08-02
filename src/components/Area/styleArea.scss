@@ -1,7 +1,23 @@
 @import './../../Style/global.scss';
+@import './../../Style/color.scss';
 
 .Area{
-  width: 800px;
-  height:900px; 
-  padding-top: 60px;  
+  width: 50%;
+  button-top: 60px; 
+  
+  .header{
+    background: url(https://orteil.dashnet.org/cookieclicker/img/shadedBorders.png);
+    background-size: 100%;
+    height: 12%;
+    display: flex;
+    color:$while;
+    justify-content: space-between;
+    .news{
+      padding: 16px 0px;
+      opacity: 1;
+      text-align: center;
+      transition: text-shadow 0.25s,background 0.25s;
+      border-radius: 8px;
+    }
+  }
 }
