@@ -3,7 +3,7 @@
 .oblastClicer {
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-self: start;
   align-items: center;  
   width: 500px;
 }
@@ -19,6 +19,7 @@
 
 
 button {
+  cursor: pointer;
   display: flex;
   border: none;
   background: none; 
@@ -26,16 +27,16 @@ button {
   
 }
 button {img{  
-  height: 200px;
+  height: 300px;
   transition: 0.5s;
   background: none; 
 }}
 
 button img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 button img:active {
-  transform: scale(0.3);
+  transform: scale(0.4);
 }
 
 #cookies {
