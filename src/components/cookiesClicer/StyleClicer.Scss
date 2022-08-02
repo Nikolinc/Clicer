@@ -5,7 +5,8 @@
   flex-flow: column;
   justify-self: start;
   align-items: center;  
-  width: 500px;
+  width: 28%;
+
 }
 .oblastClicer { 
    -webkit-touch-callout: none; /* iOS Safari */
@@ -24,7 +25,7 @@ button {
   border: none;
   background: none; 
   z-index: 1;
-  
+  border-radius:50%;  
 }
 button {img{  
   height: 300px;
