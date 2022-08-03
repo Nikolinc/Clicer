@@ -6,7 +6,6 @@
   button-top: 60px; 
   
   .header{
-    background: url(https://orteil.dashnet.org/cookieclicker/img/shadedBorders.png);
     background-size: 100%;
     height: 12%;
     display: flex;    
@@ -32,7 +31,6 @@
     }
 
     .Menu{
-      background: url(https://orteil.dashnet.org/cookieclicker/img/panelMenu3.png);
       background-size: 250px;
       height: 100%;
       width: 16%;
@@ -42,11 +40,12 @@
     }
 
     button{   
-    
-    border: solid 2px black;
-    border-radius: 70px;
+    border-radius: 20px;
+    border:#444;
+    background: url(https://img.freepik.com/free-photo/wooden-texture_1208-334.jpg?w=1380&t=st=1659456998~exp=1659457598~hmac=8518c673bff4447a6acda44989c7c9a2b7e570114843f69b79200963dadb5175);
+    margin-top: 15px;
     font-size: 18px;
-    color: $while;
+    color:#999;
     text-shadow: 0px 1px 0px #444, 0px 0px 4px #000;
     }
   }

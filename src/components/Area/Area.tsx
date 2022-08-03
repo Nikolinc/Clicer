@@ -11,7 +11,7 @@ export default function Area() {
           <button className="setting">setting</button>
           <button className="statistic">statistic</button>
         </div>
-        <div className="news">{news[getRandomInt(4)]}</div>
+        <div className="news">{news[getRandomInt(news.length-1)]}</div>
         <div className="Menu" id="rightMenu">
           <button className="information">information</button>
           <button className="experience">experience</button>
