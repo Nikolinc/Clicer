@@ -1,8 +1,11 @@
 {
   "name": "clicer",
   "private": true,
+  "homepage": "https://nikolinc.github.io/Clicer/",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
