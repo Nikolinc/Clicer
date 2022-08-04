@@ -23,11 +23,12 @@
 
     position: relative;
     width: 284px;
-    background: url(img/blackGradientSmallTop.png) repeat-x top;
   }
   
   .storeSection{
-    display: block;
+    display: grid; 
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: auto;
   
     .crate{
       background-position:-384px -432px;
