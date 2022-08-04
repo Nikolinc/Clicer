@@ -7,12 +7,14 @@
   
   .header{
     background-size: 100%;
+    background-color: rgba(0,0,0,0.5);
     height: 12%;
     display: flex;    
     justify-content: space-between;    
     align-items: center;
 
     .news{
+      
       color:$while;
       padding: 16px 0px;
       opacity: 1;
