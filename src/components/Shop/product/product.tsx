@@ -1,16 +1,10 @@
 import React, { useState } from "react";
 import "./productStyle.scss";
-import {
-  Cursor,
-  Factory,
-  Farm,
-  Grandma,
-  Mine,
-} from "../../../features/product/productObjact";
+import { ProductArray } from "../../../features/product/productObjact";
 
 export default function Product() {
   const [countCursor, setCountCursor] = useState(0);
-  const ProductArray = [Cursor, Grandma, Farm, Mine, Factory];
+
   return (
     <>
       {ProductArray.map((prod) => (

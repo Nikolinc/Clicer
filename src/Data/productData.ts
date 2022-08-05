@@ -49,3 +49,13 @@ export const FactoryData: ProductType = {
   CookiesInSecond: 11500,
   increase: 0.2,
 };
+
+export const BankData: ProductType = {
+  name: "Bank",
+  Price: 1109889,
+  description: "Creates cookies from percent",
+  imagePositionX: 0,
+  imagePositionY: -384,
+  CookiesInSecond: 51500,
+  increase: 0.2,
+};
