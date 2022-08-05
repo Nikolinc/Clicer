@@ -1,7 +1,7 @@
 import { util } from "prettier";
-import React, { JSXElementConstructor } from "react";
+import React from "react";
 import "./StylePosition.scss";
-import { position } from "../../../Data/news";
+import { position } from "../../../Data/ShopData";
 
 export default function Position() {
   return (
@@ -9,7 +9,7 @@ export default function Position() {
       {position.map((pos) => (
         <div className={`position ${pos.id.toString()}`} key={pos.id}>
           <div
-            className={`  image ${pos.id.toString()}`}
+            className={`image ${pos.id.toString()}`}
             style={{
               backgroundPositionX: `${pos.x}` + "px",
               backgroundPositionY: `${pos.y}` + "px",
