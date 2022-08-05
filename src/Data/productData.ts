@@ -35,7 +35,17 @@ export const MineData: ProductType = {
   Price: 9889,
   description: "mines cookie dough and chocolate chips",
   imagePositionX: 0,
-  imagePositionY: -196,
+  imagePositionY: -256,
+  CookiesInSecond: 5100,
+  increase: 0.2,
+};
+
+export const FactoryData: ProductType = {
+  name: "Factory",
+  Price: 109889,
+  description: "Produce a large number of cookies",
+  imagePositionX: 0,
+  imagePositionY: -320,
   CookiesInSecond: 11500,
   increase: 0.2,
 };
