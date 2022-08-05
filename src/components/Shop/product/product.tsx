@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 import "./productStyle.scss";
-import { Cursor } from "../../../features/product/productObjact";
+import { Cursor, Grandma } from "../../../features/product/productObjact";
 
 export default function Product() {
-  //const [countCursor, setCountCursor] = useState(0);
-  const ProductArray = [Cursor];
+  const [countCursor, setCountCursor] = useState(0);
+  const ProductArray = [Cursor,Grandma];
   return (
     <>
       {ProductArray.map((prod) => (
-        <div className={`product ${prod.name}`}>
+        <div
+          className={`product ${prod.name}`}
+          onClick={() => {
+            prod.buyProduct;
+            setCountCursor(prod.count);
+          }}
+        >
           <div
             className="icon"
             style={{
