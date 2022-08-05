@@ -29,3 +29,13 @@ export const FarmData: ProductType = {
   CookiesInSecond: 1500,
   increase: 0.2,
 };
+
+export const MineData: ProductType = {
+  name: "Mine",
+  Price: 9889,
+  description: "mines cookie dough and chocolate chips",
+  imagePositionX: 0,
+  imagePositionY: -196,
+  CookiesInSecond: 11500,
+  increase: 0.2,
+};
