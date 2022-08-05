@@ -5,8 +5,8 @@ export default class Product implements ProductType {
   increase: number;
   Price: number;
   description: string;
-  imagePositionX: string;
-  imagePositionY: string;
+  imagePositionX: number;
+  imagePositionY: number;
   CookiesInSecond: number;
   count = 0;
 
@@ -20,11 +20,14 @@ export default class Product implements ProductType {
     this.increase = product.increase;
   }
 
-
   buyProduct() {
     this.count++;
-    this.CookiesInSecond +=this.CookiesInSecond;
+    this.CookiesInSecond += this.CookiesInSecond;
     this.Price = this.Price * (this.increase * this.count);
+    return this.count;
+  }
+
+  getCount() {
     return this.count;
   }
 
@@ -35,8 +38,8 @@ export default class Product implements ProductType {
   getAll(): ProductType {
     return this;
   }
-  
-  getPosition(){
-    return [this.imagePositionX ,this.imagePositionY] 
+
+  getPosition() {
+    return [this.imagePositionX, this.imagePositionY];
   }
 }
