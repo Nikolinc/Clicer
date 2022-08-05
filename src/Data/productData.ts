@@ -19,3 +19,13 @@ export const GrandmaData: ProductType = {
   CookiesInSecond: 500,
   increase: 0.2,
 };
+
+export const FarmData: ProductType = {
+  name: "Farm",
+  Price: 889,
+  description: "growing a biscuit plant from biscuit seeds",
+  imagePositionX: 0,
+  imagePositionY: -196,
+  CookiesInSecond: 1500,
+  increase: 0.2,
+};

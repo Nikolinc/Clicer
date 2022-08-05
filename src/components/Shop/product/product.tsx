@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./productStyle.scss";
-import { Cursor, Grandma } from "../../../features/product/productObjact";
+import { Cursor, Farm, Grandma } from "../../../features/product/productObjact";
 
 export default function Product() {
   const [countCursor, setCountCursor] = useState(0);
-  const ProductArray = [Cursor,Grandma];
+  const ProductArray = [Cursor, Grandma, Farm];
   return (
     <>
       {ProductArray.map((prod) => (
+        <div className="positionColor">
         <div
           className={`product ${prod.name}`}
           onClick={() => {
@@ -28,7 +29,7 @@ export default function Product() {
           </div>
 
           <div className="count">{prod.count}</div>
-        </div>
+        </div></div>
       ))}
     </>
   );
