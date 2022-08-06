@@ -59,3 +59,13 @@ export const BankData: ProductType = {
   CookiesInSecond: 51500,
   increase: 0.2,
 };
+
+export const TempleData: ProductType = {
+  name: "Temple",
+  Price: 17109889,
+  description: "Filled with precious ancient chocolate",
+  imagePositionX: 0,
+  imagePositionY: -448,
+  CookiesInSecond: 101500,
+  increase: 0.2,
+};
