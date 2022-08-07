@@ -69,3 +69,13 @@ export const TempleData: ProductType = {
   CookiesInSecond: 101500,
   increase: 0.2,
 };
+
+export const WizaryToverData: ProductType = {
+  name: "Wizary Tover",
+  Price: 37109889,
+  description: "summons cookies with magical powers",
+  imagePositionX: 0,
+  imagePositionY: -508,
+  CookiesInSecond: 501500,
+  increase: 0.2,
+};

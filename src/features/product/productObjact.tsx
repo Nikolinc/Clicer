@@ -6,6 +6,7 @@ import {
   GrandmaData,
   MineData,
   TempleData,
+  WizaryToverData,
 } from "../../Data/productData";
 import Product from "../product";
 
@@ -16,6 +17,7 @@ export const Mine = new Product(MineData);
 export const Factory = new Product(FactoryData);
 export const Bank = new Product(BankData);
 export const Temple = new Product(TempleData);
+export const WizaryTover = new Product(WizaryToverData);
 
 export const ProductArray = [
   Cursor,
@@ -25,4 +27,5 @@ export const ProductArray = [
   Factory,
   Bank,
   Temple,
+  WizaryTover,
 ];
